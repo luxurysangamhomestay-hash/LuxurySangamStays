@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Sangam stay - Book Your Stay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div style="text-align:center; margin-top: 40px;"><img style="width:20%;" src="logo.jpg"></div>
+                <div class="logo">
+                   <center><h1 style="font-size: 50px;"><u>Luxury Sangam Stays</h1><br><br></center></u>
+                   <h3 style="font-size :20px; text-align: center; line-height: 30px; margin-bottom: 50px;">​🏡 Sangam Luxury Homestay: Your Perfect Getaway 🕊<br><br><hr>
+
+​<u style="font-size:30;">Our Top-Notch Facilities:<br><br></u>
+
+​A Peaceful Vibe: We guarantee a peaceful and family-friendly environment for a truly relaxing stay. 👨‍👩‍👧‍👦<br>
+
+​Modern Comforts: Enjoy all the conveniences of home! Each room is equipped with a Smart TV 📺 for your entertainment and a powerful AC ❄ to keep you cool and comfortable.</h3>
+                </div>
+                <div style="text-align: center;">
+<a style="font-size:25px; background-color:darkred; color: whitesmoke; padding: 15px 35px 15px 35px;" href="https://www.airbnb.co.in/h/premiumroomin2bhk">Read More</a></div><br>
+<hr style="width:60%;">
+<br><br>
+<img style="width:33%;" src="IMG-20250916-WA0002.jpg">
+<img style="width:33%;" src="IMG-20250916-WA0006.jpg">
+<img style="width:33%;" src="IMG-20250918-WA0005.jpg">
+<div style="text-align:center;">
+<video style="width:60%;" src="video/Video_Generation_From_Image.mp4" controls/></div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Rooms</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Welcome to Luxury sangam stays</h1>
+                <p>Experience luxury and comfort in the heart of the city</p>
+                <a href="#booking" class="cta-button">Book Now</a>
+            </div>
+        </section>
+
+        <!-- Booking Form Section -->
+        <section id="booking" class="booking-section">
+            <div class="container">
+                <h2>Book Your Room</h2>
+                <form class="booking-form" id="bookingForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">Check-in Date</label>
+                            <input type="date" id="checkin" name="checkin" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Check-out Date</label>
+                            <input type="date" id="checkout" name="checkout" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="">Select Guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="roomtype">Room Type</label>
+                            <select id="roomtype" name="roomtype" required>
+                                <option value="">Select Room</option>
+                                <option value="single">Single Room - ₹2,500/night</option>
+                                <option value="double">Double Room - ₹3,500/night</option>
+                                <option value="deluxe">Deluxe Suite - ₹5,000/night</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group full-width">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">Book Now</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Rooms Section -->
+        <section id="rooms" class="rooms-section">
+            <div class="container">
+                <h2>Our Rooms</h2>
+                <div class="rooms-grid">
+                    <div class="room-card">
+                        <div class="room-image">
+                            <div class="placeholder-image">Single Room</div>
+                        </div>
+                        <div class="room-info">
+                            <h3>Single Room</h3>
+                            <p>Perfect for solo travelers with all modern amenities</p>
+                            <div class="room-features">
+                                <span>• Free WiFi</span>
+                                <span>• AC</span>
+                                <span>• Room Service</span>
+                            </div>
+                            <div class="room-price">₹2,500/night</div>
+                        </div>
+                    </div>
+                    <div class="room-card">
+                        <div class="room-image">
+                            <div class="placeholder-image">Double Room</div>
+                        </div>
+                        <div class="room-info">
+                            <h3>Double Room</h3>
+                            <p>Spacious room for couples with city view</p>
+                            <div class="room-features">
+                                <span>• Free WiFi</span>
+                                <span>• AC</span>
+                                <span>• Balcony</span>
+                            </div>
+                            <div class="room-price">₹3,500/night</div>
+                        </div>
+                    </div>
+                    <div class="room-card">
+                        <div class="room-image">
+                            <div class="placeholder-image">Deluxe Suite</div>
+                        </div>
+                        <div class="room-info">
+                            <h3>Deluxe Suite</h3>
+                            <p>Luxury suite with separate living area</p>
+                            <div class="room-features">
+                                <span>• Free WiFi</span>
+                                <span>AC</span>
+                                <span>Kitchen</span>
+                            </div>
+                            <div class="room-price">₹5,000/night</div>
+                        </div>
+                    </div>
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Address</h3>
+                        <p>17 panna lal road, George Town, Civil Lines<br>Prayagraj, Uttar Pradesh 211001</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+91 9876543210</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>Luxurysangamhomestay@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Check-in/Check-out</h3>
+                        <p>Check-in: 2:00 PM<br>Check-out: 12:00 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy;Luxury sangam stays . All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
